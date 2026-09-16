@@ -24,7 +24,6 @@ Unlike standard academic implementations that stop at tree construction, this to
 3. **Bit-stream Decoding:** Reads the compressed file byte-by-byte, unpacking individual bits to traverse the tree.
 
 ## 📦 Custom `.huf` File Format
-
 | Offset | Size (Bytes) | Content Description |
 | :--- | :--- | :--- |
 | `0x00` | `4` | `tree_size` - The length of the serialized tree metadata. |
